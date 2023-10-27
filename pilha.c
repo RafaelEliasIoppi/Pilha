@@ -32,7 +32,7 @@ void imprimir_pessoa(Pessoa p) {
 
 No *empilhar (No *topo ){
     No *novo = malloc(sizeof(No));
-    if(novo){1
+    if(novo){
         novo->p = ler_pessoa();
         novo->proximo = topo;
         return novo;
